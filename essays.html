@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Name — Essays</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page">
+    <aside class="sidebar">
+      <img
+        src="your-photo.jpg"
+        alt="Photo of Your Name"
+        class="portrait"
+      />
+
+      <nav class="sidebar-nav">
+        <a href="index.html" class="sidebar-link">Home</a>
+        <a href="essays.html" class="sidebar-link active">Essays</a>
+      </nav>
+
+      <div class="sidebar-contact">
+        <p class="sidebar-label">Email:</p>
+        <p><a href="mailto:you@example.com">you@example.com</a></p>
+
+        <p class="sidebar-label">Twitter:</p>
+        <p>
+          <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">
+            @yourhandle
+          </a>
+        </p>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <h1 class="main-title">Essays</h1>
+
+      <!-- Essay 1 -->
+      <article class="essay">
+        <h2 class="essay-title">
+          <a href="#essay-1">An Essay Title Goes Here</a>
+        </h2>
+        <p class="essay-meta">November 5, 2025</p>
+        <button class="toggle-button" data-target="essay-1">Show post</button>
+
+        <div id="essay-1" class="essay-body">
+          <p>
+            This is where the body of your essay goes. You can write in plain HTML:
+            paragraphs, links, lists, images, etc.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet,
+            erat non porta tristique, ex dui finibus urna, et blandit erat ipsum eget urna.
+          </p>
+        </div>
+      </article>
+
+      <hr class="divider subtle" />
+
+      <!-- Essay 2 -->
+      <article class="essay">
+        <h2 class="essay-title">
+          <a href="#essay-2">Another Essay Title</a>
+        </h2>
+        <p class="essay-meta">October 12, 2025</p>
+        <button class="toggle-button" data-target="essay-2">Show post</button>
+
+        <div id="essay-2" class="essay-body">
+          <p>
+            Another essay body. Replace this with your own content. You can also
+            link to an external version if this was originally a Twitter thread,
+            Substack post, etc.
+          </p>
+          <p>
+            Example: Originally posted as a
+            <a href="https://example.com/thread" target="_blank" rel="noopener noreferrer">
+              Twitter thread
+            </a>.
+          </p>
+        </div>
+      </article>
+
+      <hr class="divider subtle" />
+
+      <!-- Essay 3 -->
+      <article class="essay">
+        <h2 class="essay-title">
+          <a href="#essay-3">Short Note or Commentary</a>
+        </h2>
+        <p class="essay-meta">September 2, 2025</p>
+        <button class="toggle-button" data-target="essay-3">Show post</button>
+
+        <div id="essay-3" class="essay-body">
+          <p>
+            You can also keep some posts quite short: a few paragraphs, some
+            charts (as images), or a small technical note.
+          </p>
+        </div>
+      </article>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
